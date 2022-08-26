@@ -241,6 +241,29 @@ figure{
 }
 }
 // Service page ends
+// blog page starts
+.blog{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    .blog_box{
+        border:2px solid #000;
+        width: 30%;
+        margin: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+        transition: all 0.3s ease;
+        img{
+            width: 100%;
+            border-radius: 1rem;
+        }
+    }
+    .blog_box:hover{
+        box-shadow: 2px 2px 3px #000;
+    }
+}
+// blog page ends
 // Footer starts
 footer{
     border-top: 2px solid $primary-color;
