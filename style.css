@@ -256,6 +256,49 @@ article h3 {
   box-shadow: 2px 2px 3px #000;
 }
 
+.contact {
+  background: url("images/contact.jpg") no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
+.contact .contact-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding-bottom: 1rem;
+}
+.contact .contact-overlay div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-overlay div a {
+  color: #fff;
+  margin: 1rem 2rem;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+}
+.contact .contact-overlay div a:hover {
+  border-bottom: 1px solid #fff;
+}
+.contact h3 {
+  margin-top: 1rem;
+}
+.contact form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #00697F;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4px;
+}
+.contact form label {
+  margin: 0.5rem 0;
+}
+.contact form textarea {
+  resize: none;
+}
+
 footer {
   border-top: 2px solid #00697F;
   background-color: #e6eded;
