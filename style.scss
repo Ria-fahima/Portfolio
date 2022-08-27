@@ -267,6 +267,19 @@ figure{
     }
 }
 // blog page ends
+// single blog starts
+.single_blog_area{
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+    img{
+        margin-bottom: 1rem;
+    }
+    p{
+        margin: 1rem;
+    }
+}
+// single blog ends
 // Contact page starts
 .contact{
     background: url('images/contact.jpg') no-repeat center;
@@ -378,6 +391,9 @@ footer{
     }
     .project_area figure{
         width: 45%;
+    }
+    .single_blog_area{
+        display: block;
     }
 }
 @media screen and (max-width: 910px){

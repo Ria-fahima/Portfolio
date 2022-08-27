@@ -260,6 +260,18 @@ article h3 {
   box-shadow: 2px 2px 3px #000;
 }
 
+.single_blog_area {
+  display: flex;
+  justify-content: center;
+  flex-basis: 50%;
+}
+.single_blog_area img {
+  margin-bottom: 1rem;
+}
+.single_blog_area p {
+  margin: 1rem;
+}
+
 .contact {
   background: url("images/contact.jpg") no-repeat center;
   background-size: cover;
@@ -366,6 +378,9 @@ footer {
   }
   .project_area figure {
     width: 45%;
+  }
+  .single_blog_area {
+    display: block;
   }
 }
 @media screen and (max-width: 910px) {
