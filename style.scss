@@ -394,6 +394,9 @@ footer{
     }
     .single_blog_area{
         display: block;
+        img{
+            width: 100%;
+        }
     }
 }
 @media screen and (max-width: 910px){
