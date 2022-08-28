@@ -1,7 +1,10 @@
 # Portfolio Documentation #
 [Portfolio Website](https://riajuljannah-portfolio.netlify.app)
 <br/>
-[Github Repo](https://riajuljannah-portfolio.netlify.app)
+[Github Repo](https://github.com/fahimagithub/Portfolio)
+<br/>
+# Presentation Link #
+[Portfolio presentation](https://www.youtube.com/watch?v=S0r6Yh3hd0Y)
 <br/>
 # Purpose #
 This portfolio website describes my capabilities, new ideas for designing, my background, skills, projects which can attract any users. Besides, this website is user-friendly.
